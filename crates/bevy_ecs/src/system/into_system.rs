@@ -300,6 +300,26 @@ impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh);
 impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri);
 #[rustfmt::skip]
 impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj);
+#[rustfmt::skip]
+impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj,Rk);
+#[rustfmt::skip]
+impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj,Rk,Rl);
+#[rustfmt::skip]
+impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj,Rk,Rl,Rm);
+#[rustfmt::skip]
+impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj,Rk,Rl,Rm,Rn);
+#[rustfmt::skip]
+impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj,Rk,Rl,Rm,Rn,Ro);
+#[rustfmt::skip]
+impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj,Rk,Rl,Rm,Rn,Ro,Rp);
+#[rustfmt::skip]
+impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj,Rk,Rl,Rm,Rn,Ro,Rp,Rq);
+#[rustfmt::skip]
+impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj,Rk,Rl,Rm,Rn,Ro,Rp,Rq,Rr);
+#[rustfmt::skip]
+impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj,Rk,Rl,Rm,Rn,Ro,Rp,Rq,Rr,Rs);
+#[rustfmt::skip]
+impl_into_systems!(Ra,Rb,Rc,Rd,Re,Rf,Rg,Rh,Ri,Rj,Rk,Rl,Rm,Rn,Ro,Rp,Rq,Rr,Rs,Rt);
 
 /// Converts `Self` into a thread local system
 pub trait IntoThreadLocalSystem {

@@ -379,7 +379,7 @@ macro_rules! tuple_impl {
     };
 }
 
-smaller_tuples_too!(tuple_impl, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A);
+smaller_tuples_too!(tuple_impl, T, S, R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A);
 
 pub struct OrRes<T>(T);
 
@@ -446,7 +446,7 @@ macro_rules! tuple_impl_or {
     };
 }
 
-smaller_tuples_too!(tuple_impl_or, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A);
+smaller_tuples_too!(tuple_impl_or, T, S, R, Q, P, O, N, M, L, K, J, I, H, G, F, E, D, C, B, A);
 
 #[cfg(test)]
 mod tests {
